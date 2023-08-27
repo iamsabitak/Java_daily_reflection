@@ -35,7 +35,7 @@ public int sum(int a, int b){
 }
 public class java_annotation {
     public static void main(String[] args) {
-        @SuppressWarnings( "deprecation" )
+        // @SuppressWarnings( "deprecation" )
         Smartphone phone = new Smartphone();
         phone.showTime();
         phone.sum(2,2);
