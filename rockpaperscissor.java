@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rockpaperscissor {
+public class rockpaperscissor{
     public static void main(String[] args) {
       //0 for rock
       //1 for paper
@@ -10,7 +10,7 @@ public class rockpaperscissor {
       int user = sc.nextInt();
       Random rd = new Random();
       int computer = rd.nextInt(3);
-       while(true){
+       
        if (user == computer){
          System.out.println("draw");
        }
@@ -29,7 +29,6 @@ public class rockpaperscissor {
               if (computer==2){
          System.out.println("computer scissor");
        }
-    }
     }
 }
 
